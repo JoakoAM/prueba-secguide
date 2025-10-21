@@ -20,7 +20,7 @@ export default function DrawerLogin({}: Props) {
   } = useForm<UserForm>();
 
   useEffect(() => {
-    let timeout: number;
+    let timeout: any;
 
     if (success) {
       setMostrar(true); // Mostrar el mensaje
